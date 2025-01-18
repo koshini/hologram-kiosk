@@ -1,0 +1,17 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-style: dashed;
+  width: 100vw;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1001;
+  /* opacity: 0; */
+
+  * {
+    padding: 50px;
+  }
+}

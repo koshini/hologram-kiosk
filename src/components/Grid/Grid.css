@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 80px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  button {
+    padding: 40px;
+  }
+}
